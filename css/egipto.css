@@ -1,0 +1,94 @@
+* {
+  margin: 0px;
+  padding: 0px;}
+
+.titulo-egipto {
+color: green;
+text-align: center;
+}
+
+.botonera {
+  display: flex;
+  background-color: lightgrey;
+  width: 100%;
+  height: 6vh;
+
+} 
+
+.botonera div {
+  display: flex;
+  width: 20%;
+  border: 1px solid black;
+  flex-grow: inherit;
+  justify-content: center;
+  align-items: center;
+  transition: background-color  1s ease-in-out;
+  cursor: pointer;
+}
+
+.botonera div a {
+  color: green;
+  text-decoration: none;
+}
+.botonera div :hover {
+  color: white;
+  text-decoration: none;
+}
+
+.pantalla {
+  color: white;
+  font-size: 60px;
+  display: flex;
+  background-image: url(https://3.bp.blogspot.com/-ZkrBpkle6l8/W45LW2PP4wI/AAAAAAAA0Rk/SyP5sgrhj-E5tx6XvTNJiSqlLCCDGE4qgCLcBGAs/s1600/Arquitectura%2BEgipcia%2B%2BOrganizaci%25C3%25B3n%2B%252B%2BCaracter%25C3%25ADsticas%2B%252B%2BPrincipales%2BEjemplos%2B%2BTemplos%2Bdel%2BAntiguo%2BEgipto%2B%25282%2529.jpg);
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 94vh;
+  align-items: center;
+  justify-content: center;
+}
+
+h3 {
+  color: green;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.section-aside {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+}
+
+.padre {
+display: flex;
+width: 100%;
+}
+.section-aside ul li {
+  padding: 10px;
+  margin: 20px;
+  height: 100%;
+  border: 1px green solid;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.section-aside ul li a {
+  color: green;
+  text-decoration: none;
+  font-size: 15px;
+  width: 25%;
+}
+
+.section-central {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.foto {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
